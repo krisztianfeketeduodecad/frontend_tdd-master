@@ -48,6 +48,7 @@ WordMagic.prototype.onlyOneCharacter = function(word) {
 		}
 	}
 	return true;
+	//return new RegExp('^' + word[0] + '+$').test(word);
 };
 
 WordMagic.prototype.isMirrorWord = function(word) {
